@@ -1,0 +1,10 @@
+_min_copier_version: "9.0.0"
+
+project_name:
+  type: str
+  help: "Enter your project name"
+
+author:
+  type: str
+  help: "Author name"
+  default: "Unknown"
