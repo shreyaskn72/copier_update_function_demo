@@ -8,3 +8,10 @@ author:
   type: str
   help: "Author name"
   default: "Unknown"
+
+
+license:
+  type: str
+  required: false
+  default: ""
+  help: Project license (optional)
