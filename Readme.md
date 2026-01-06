@@ -36,8 +36,20 @@ copier copy --vcs-ref master https://github.com/shreyaskn72/copier_update_functi
 ```
 cd hello_world
 ```
+
+If you want to update as per the master branch use the following command
 ```
 copier update
+```
+
+If you want to update as per branch use the following command
+```
+copier update --vcs-ref dev
+```
+
+If you want to update as per tag use the following command
+```
+copier update --vcs-ref v0.2.0
 ```
 
 These commands demonstrate how to:
